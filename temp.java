@@ -6,15 +6,15 @@ public class temp{
 
     int temp = scan.nextInt();
 
-    if(temp > 83);
-      System.out.println("hot");
-    if else(83 >= temp >= 68);
-      System.out.println("ideal");
-    if else(67 >= temp >= 45);
-      System.out.println("cool");
+    if(temp > 83)
+      System.out.println("Hot");
+    else if(83 >= temp && temp >= 68)
+      System.out.println("Ideal");
+    else if(67 >= temp && temp >= 45)
+      System.out.println("Cool");
 
     else
-      System.out.println("cold");
+      System.out.println("Cold");
 
   }
 
