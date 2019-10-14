@@ -6,8 +6,28 @@ public class PalindromeTester{
     Scanner input = new Scanner(System.in);
 
     System.out.println("Would you like to enter a palindrome?");
+
+    String question1 = "yes";
+    String question2 = "no";
+    String yes = "yes";
+    String no = "no";
+
+    if (question1 == yes){
+
+      String palindrome = input.next();
+      String palindromelc = palindrome.toLowerCase();
+
+      System.out.println(palindromelc);
+
+    }
+    if (question2 == no){
+      System.out.println("Ok, Bye");
+
+    }
+
+
+
     //boolean answer
-    String palindrome = input.next();
 
     //make whole thing lowercase
     //get string length String(Length);
