@@ -11,6 +11,7 @@ public class Multiples {
     int limit = scan.nextInt();
     int test = 1;
     int multiples = (input);
+
     while (multiples <= limit){
       System.out.println(multiples);
       test++;
