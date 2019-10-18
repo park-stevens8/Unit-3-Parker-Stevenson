@@ -12,10 +12,22 @@ public class Multiples {
     int test = 1;
     int multiples = (input);
 
-    while (multiples <= limit){
-      System.out.println(multiples);
+    if(input < 0 || limit < 0){
+      System.out.println("Must be positive a #");
+    }
+
+    if(input > limit){
+      System.out.println("Upper limit must be > your positive integer");
+    }
+
+    while (multiples <= limit && input > 0 && limit > 0){
+      if(multiples % 5 == 2){
+      System.out.print("\n");
+    }
+      System.out.print(multiples + " ");
       test++;
       multiples = (input*(test));
+
 
     }
     /* while( <= limit){

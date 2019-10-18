@@ -5,22 +5,23 @@ public class PalindromeTester{
 
     Scanner input = new Scanner(System.in);
 
-    System.out.println("Would you like to enter a palindrome?");
+    System.out.println("Would you like to enter a palindrome? ('yes' for yes, 'no' for no)");
 
-    String question1 = "yes";
-    String question2 = "no";
+    String question = input.next();
     String yes = "yes";
     String no = "no";
+    compare = String.compareTo(yes question);
 
-    if (question1 == yes){
+    if (String.compareTo(yes question) == 0){
 
+      System.out.println("Type your Palindrome");
       String palindrome = input.next();
       String palindromelc = palindrome.toLowerCase();
 
       System.out.println(palindromelc);
 
     }
-    if (question2 == no){
+    if (question == no){
       System.out.println("Ok, Bye");
 
     }
